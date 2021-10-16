@@ -1,0 +1,192 @@
+.table-style {
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 23px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2b665e;
+  height: 650px;
+  /* width: 1150px; */
+}
+
+.uni-style {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3b9bb3;
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+  position: relative;
+  top: 1px;
+}
+
+.navi-home {
+  margin-left: 1em;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3b9bb3;
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+  position: relative;
+  top: 1px;
+}
+
+.navi-aboutus {
+  margin-left: 2em;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3b9bb3;
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+  position: relative;
+  top: 1px;
+}
+
+.navi-contact {
+  margin-left: 2em;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3b9bb3;
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+  position: relative;
+  top: 1px;
+}
+
+.product {
+  display: block;
+  width: 100px;
+  height: 100px;
+  transition: 1s ease;
+}
+
+.productholder {
+  background-color: #e8f9fd;
+  position: relative;
+  float: left;
+  height: 100px;
+  width: 17.5%;
+}
+
+.productspace {
+  background-color: #e8f9fd;
+  position: relative;
+  float: left;
+  height: 250px;
+  width: 3.33%;
+}
+
+.overlay {
+  position: absolute;
+  float: left;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  overflow: hidden;
+  background: rgba(0, 33, 87, 0.75);
+  color: #e8f9fd;
+  width: 100%;
+  transition: 0.5s ease;
+  height: 0px;
+  text-align: center;
+}
+
+.productholder:hover .overlay {
+  height: 100px;
+}
+
+.productholder:hover .product {
+  opacity: 0.5;
+}
+
+.productholder:hover .order {
+  opacity: 1;
+}
+
+.order {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ordertext {
+  background-color: rgba(0, 33, 87, 0.8);
+  border-radius: 20px 0px;
+  color: white;
+  font-size: 10px;
+  padding: 10px 18px;
+}
+
+.info {
+  text-align: center;
+  color: white;
+  margin-left: 2em;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3b9bb3;
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+  position: relative;
+  top: 1px;
+}
